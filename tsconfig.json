@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "jsx": "react",
     "module": "commonjs",
+    "allowSyntheticDefaultImports": false,
     "esModuleInterop": true,
     "target": "es6",
     "noImplicitAny": true,
