@@ -12,7 +12,7 @@ const App = () => {
       setBooks(initialBooks);
     };
     fetchBooks();
-  });
+  }, []);
 
   return (
     <div className="App">
