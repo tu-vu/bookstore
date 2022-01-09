@@ -15,7 +15,8 @@ type Props = {
 export const Book: React.FC<Props> = ({ book }) => {
   return (
     <div>
-      <p>{book.title}</p>
+      <h4>{book.title}</h4>
+      <p>Author: {book.author}</p>
     </div>
   );
 };
